@@ -4,9 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Instructor instructor = new Instructor(1,"Engin","Demiroð",
-				"Yazýlým geliþtirmeye lisede \"yazýlým\" bölümünde okurken baþladým.");
-		Student student = new Student(2,"Çaðrý","Akýncý",7,"Java+React","%22");
+		Instructor instructor = new Instructor(1,"Engin","Demiroğ",
+				"Yazılım geliştirmeye lisede yazılım bölümünde okurken başladım.");
+		Student student = new Student(2,"Çağrı","Akıncı",7,"Java+React","%22");
 		
 		UserManager userManager = new UserManager();
 		userManager.login(instructor);
