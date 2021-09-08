@@ -2,10 +2,10 @@ package homework2;
 
 public class UserManager {
 	public void login(User user) {
-		System.out.println(user.getFirstName() + " " + user.getLastName() + " giriş yaptı.");
+		System.out.println(user.getFirstName() + " " + user.getLastName() + " giriÅŸ yaptÄ±.");
 	}
 
 	public void logout(User user) {
-		System.out.println(user.getFirstName() + " " + user.getLastName() + " çıkış yaptı.");
+		System.out.println(user.getFirstName() + " " + user.getLastName() + " Ã§Ä±kÄ±ÅŸ yaptÄ±.");
 	}
 }
